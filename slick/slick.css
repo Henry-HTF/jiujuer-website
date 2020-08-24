@@ -1,0 +1,88 @@
+/* Slider */
+.slick-slider {
+    position: relative;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.slick-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slick-arrow {
+    position: absolute;
+    width: .18rem;
+    height: .32rem;
+    font-size: 0;
+    color: transparent;
+    background-size: 100% 100%;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.slick-arrow.slick-prev {
+    left: 0;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABqCAMAAAA7gKe8AAAANlBMVEUAAACrzf+ny/+rzf+rzf+iz/+qyv+rzv+rzf+rzv+rzf+szv+qzP+rzv+rzf+ry/+ny/+rzf8aBjGUAAAAEXRSTlMA3yCA7xAwz6CQcF9Qv69AQAXdXlMAAAEwSURBVFjD7ZlRDsIgEESBAkVqW7n/ZTUxpln/dh/RRpn/2aQzfUto3feUaikL8N9ie8gHq7+2p7zRP7WXbP7S0IA0NzQg+IYG5MNvCnGJwh8s8R+a1f6L8JekjX8T/kkd/yz8ldUXrxZ6Dvmsp6dnfas6/iL8Fz09sD4v/AujJ+Z/o2el8TN68qCH0BO60hP19ERITxv09KNn1/qvcHlVGf+gh9DjP05PkPUlp5UX9BhuDu/xE36rM6gAesCAno+w0xDdKinSK4M9QF5luQsBTAxnvlDkSpMT2FLdEphwlMEPFn6t4ocrPN5NdFO2JsxWPR1brX6DLVdkGYMtwBZedFtntoqljB88t2xsnW7RrYY662CrF1vTGdiKndnq8HEesuXoFQH/IuE/aaza/bPGO08iWl0SVOokAAAAAElFTkSuQmCC");
+}
+
+.slick-arrow.slick-next {
+    right: 0;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABqCAMAAAA7gKe8AAAANlBMVEUAAACnzP+rzf+rzf+jz/+qyv+rz/+rzv+ry/+rzf+rzP+rzv+szv+rzv+rzf+qzP+qy/+rzf9+oiD6AAAAEXRSTlMAIN/vEDB/z4CgcJBfv69QQIHJ95kAAAEhSURBVFjD7ZnLkoUgDAWJARXFR/7/Z2c2UzVMzSrNlfswe7tKjh2ChBYVl5yLBHfJYN81JPa8mR5OQLGfGn2AbBUBAWyPDsBiv2oQR4gDJUhF0JMSbHEQJjNjYawVYXUQ5oowiSdNGkaq40w4ztIjjLgDQhUGcGvGYRz6Dm7F7XbrIW5ZH7fy7dZ/bh04zvEJ3Mq3Wz2HiNy40W3REcbzuZUwQegQsQUaRqAEcEhBAGWAsXoF2KBoi9yh1SpXf8qnks7GdR5ZQ4l/WhpsqvPVI1NSFl/Rlss/CdzeIxsw5qt31QQPMEdTe6bPtkcd9rDlL9bUnnjbgwa5vvbsn2bP+V72hBezR6A9Qn+NF3quznXzQoA1eGqp4/PfL2jpc030BUBPWtoMJ3YEAAAAAElFTkSuQmCC");
+}
+
+.slick-dots {
+    position: absolute;
+    width: 100%;
+    bottom: .29rem;
+    text-align: center;
+    font-size: 0;
+    color: transparent;
+}
+
+.slick-dots li {
+    display: inline-block;
+    width: 1.6vw;
+    height: 1.6vw;
+    max-width: .24rem;
+    max-height: .24rem;
+    border: 0.02rem solid rgba(255, 255, 255, 0.5);
+    border-radius: 51%;
+    box-sizing: border-box;
+    margin-left: .06rem;
+    margin-right: .06rem;
+}
+
+.slick-dots li.slick-active {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.slick-dots button {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+.slick-list {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slick-list .slick-track {
+    height: 100%;
+}
+
+.slick-list .slick-track .slick-slide {
+    float: left;
+    height: 100%;
+}
+
+.slick-list .slick-track .slick-slide>div {
+    width: unset !important;
+    height: 100%;
+}

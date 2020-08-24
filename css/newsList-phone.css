@@ -1,0 +1,352 @@
+/* 默认部分 */
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+div,
+p {
+  text-align: center;
+}
+
+#__next {
+  font-size: .14rem;
+  width: 100%;
+}
+
+.slick-arrow {
+  width: .1rem;
+  height: .18rem;
+}
+
+main {
+  line-height: 1.5;
+}
+
+/* 头部 */
+header {
+  height: .58rem;
+  position: fixed;
+}
+
+header .logo {
+  height: .2rem;
+  width: 1.16rem;
+  margin-left: .21rem;
+}
+
+header .right {
+  display: none;
+}
+
+header .phone {
+  display: block;
+  width: .24rem;
+  height: .2rem;
+  margin-right: 5.7vw;
+  font-size: .14rem;
+}
+
+.menu-toggle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-toggle .toggle-bar {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  border: 1px solid #fff;
+  border-radius: 1px;
+  -webkit-transition: opacity .2s ease, -webkit-transform .4s ease;
+  -webkit-transition: opacity .2s ease, transform .4s ease;
+  transition: opacity .2s ease, transform .4s ease;
+}
+
+.menu-toggle .toggle-bar-1 {
+  top: .01rem;
+}
+
+.menu-toggle .toggle-bar-2 {
+  top: .1rem;
+}
+
+.menu-toggle .toggle-bar-3 {
+  top: .19rem;
+}
+
+.phone .nav {
+  position: absolute;
+  top: 0.58rem;
+  left: 0;
+  width: 100vw;
+  height: 50vh;
+  background-color: #3c8cff;
+}
+
+.phone .nav .item {
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #fff;
+}
+
+.show {
+  display: none;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+/* main主体部分 */
+main {
+  margin-top: 0.58rem
+}
+
+/* 背景样式 */
+.bg-ellipse-full-wrapper {
+  z-index: 0;
+}
+
+.bg-ellipse-wrapper .bg-ellipse {
+  width: 2.95rem;
+  height: 2.95rem;
+}
+
+.bg-ellipse-wrapper .bg-ellipse-1 {
+  width: 2.99rem;
+  height: 2.99rem;
+  right: -1.45rem;
+  top: 3.62rem;
+  background-image: url(../img/bg1.png);
+  -webkit-transform: rotate(-101.89deg);
+  -ms-transform: rotate(-101.89deg);
+  transform: rotate(-101.89deg);
+}
+
+.bg-ellipse-wrapper .bg-ellipse-2 {
+  left: -.84rem;
+  top: 7.77rem;
+  background-image: url(../img/bg2.png);
+  -webkit-transform: rotate(-21.57deg);
+  -ms-transform: rotate(-21.57deg);
+  transform: rotate(-21.57deg);
+}
+
+.bg-ellipse-wrapper .bg-ellipse-3 {
+  width: 3.05rem;
+  height: 3.05rem;
+  right: -1.63rem;
+  top: 10.9rem;
+  background-image: url(../img/bg3.png);
+  -webkit-transform: rotate(-85.35deg);
+  -ms-transform: rotate(-85.35deg);
+  transform: rotate(-85.35deg);
+}
+
+.bg-ellipse-wrapper .bg-ellipse-4 {
+  width: 3.41rem;
+  height: 3.41rem;
+  left: -1.88rem;
+  top: 15.38rem;
+  background-image: url(../img/bg4.png);
+  -webkit-transform: rotate(-43.68deg);
+  -ms-transform: rotate(-43.68deg);
+  transform: rotate(-43.68deg);
+}
+
+.bg-ellipse-wrapper .bg-ellipse-5 {
+  right: -1.73rem;
+  top: 24.15rem;
+  background-image: url(../img/bg5.png);
+  -webkit-transform: rotate(-91.57deg);
+  -ms-transform: rotate(-91.57deg);
+  transform: rotate(-91.57deg);
+}
+
+.bg-ellipse-wrapper .bg-ellipse-6 {
+  width: 3.05rem;
+  height: 3.05rem;
+  left: -1.39rem;
+  top: 27.64rem;
+  background-image: url(../img/bg1.png);
+  -webkit-transform: rotate(-25.35deg);
+  -ms-transform: rotate(-25.35deg);
+  transform: rotate(-25.35deg);
+}
+
+.bg-ellipse-wrapper .bg-ellipse-7 {
+  width: 3.41rem;
+  height: 3.41rem;
+  right: -1.7rem;
+  top: 31.04rem;
+  background-image: url(../img/bg2.png);
+  -webkit-transform: rotate(-63.68deg);
+  -ms-transform: rotate(-63.68deg);
+  transform: rotate(-63.68deg);
+}
+
+.bg-ellipse-wrapper .bg-ellipse-8 {
+  left: -1.26rem;
+  top: 35.89rem;
+  background-image: url(../img/bg2.png);
+  -webkit-transform: rotate(-21.57deg);
+  -ms-transform: rotate(-21.57deg);
+  transform: rotate(-21.57deg);
+}
+
+/* 页脚 */
+.footer {
+  display: block;
+  padding-top: 0;
+}
+
+.footer p {
+  font-size: .14rem;
+}
+
+.footer .logo {
+  display: inline-block;
+  width: 1.81rem;
+  height: .31rem;
+  margin: .29rem auto;
+}
+
+.footer .logo img {
+  object-position: center;
+}
+
+.footer .nav-wrapper {
+  display: block;
+}
+
+.footer .nav-wrapper .nav-item {
+  margin-right: 0;
+  margin-bottom: .3rem;
+}
+
+.footer .nav-wrapper .nav-item .title {
+  margin-bottom: 0;
+  font-size: 0.16rem;
+}
+
+.footer .locale-select {
+  margin: 0 auto .14rem;
+}
+
+.footer .bottom {
+  display: block;
+  margin-top: 0;
+}
+
+.footer .bottom .copyright-wrapper {
+  text-align: center;
+}
+
+.footer .bottom .copyright-wrapper .copyright-icp .copyright-icp-text {
+  font-size: .12rem;
+}
+
+main {
+  width: 100vw;
+}
+
+#news-list .top-img {
+  width: 100%;
+  height: 126px;
+}
+
+.mod-con {
+  padding: 0 30px;
+  margin: 0;
+}
+
+.mod-con h2 {
+  margin-top: .4rem;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #2A2E2E;
+  letter-spacing: 0;
+  margin-bottom: 8px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.tab-container {
+  display: none;
+}
+
+.content {
+  width: 100%;
+  margin: .5rem auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.news-list {
+  padding: .1rem .1rem;
+}
+
+.news-item {
+  margin-bottom: .1rem;
+}
+
+.news-item img {
+  max-width: 1.3rem;
+}
+
+.left {
+  padding-left: 3%;
+}
+
+.left h3 {
+  font-size: .14rem;
+  line-height: .25rem;
+}
+
+.left h4 {
+  font-size: .14rem;
+}
+
+.left p {
+  display: none;
+}
+
+/* 新闻详情页 */
+.tab {
+  display: none;
+}
+
+.news-content {
+  width: 100%;
+  margin: .2rem auto;
+}
+
+article {
+  width: 90%;
+  padding: 8px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.main {
+  line-height: 36px;
+  font-size: 24px;
+}
+
+.date {
+  font-size: 12px;
+  line-height: 18px;
+  padding-bottom: 5px;
+}
+
+.data {
+  padding-bottom: .1rem;
+}

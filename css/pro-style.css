@@ -1,0 +1,99 @@
+/* 产品页面 --------------------------------------------- */
+/* 产品模块 ------------------------------------------------------------ */
+.products-carousel {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 1.01rem);
+  min-width: 10.24rem;
+  min-height: 6rem;
+}
+
+.products-carousel .main-wrapper {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.products-carousel .main-wrapper .item-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.products-carousel .main-wrapper .item-wrapper .item-left {
+  margin-top: 1.5rem;
+  width: 3.1rem;
+  margin-left: 15%;
+}
+
+.products-carousel .main-wrapper .item-wrapper .item-left img {
+  width: .8rem;
+  height: .8rem;
+}
+
+.products-carousel .main-wrapper .item-wrapper .item-left .title {
+  margin-top: .32rem;
+  line-height: .32rem;
+  font-size: .28rem;
+}
+
+.products-carousel .main-wrapper .item-wrapper .item-left .desc {
+  margin-top: .24rem;
+  font-size: .16rem;
+  line-height: 1.8;
+}
+
+.products-carousel .main-wrapper .item-wrapper .item-left .desc a {
+  color: #3c8cff;
+}
+
+.top-menu {
+  width: 100vw;
+  position: fixed;
+  top: 1.2rem;
+  list-style-type: none;
+  z-index: 70;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu li {
+  margin: 0 0.3rem;
+}
+
+#menu img {
+  width: .4rem;
+  height: .4rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+#menu span {
+  font-size: .16rem;
+}
+
+#menu .active {
+  transform: scale(1.4);
+}
+
